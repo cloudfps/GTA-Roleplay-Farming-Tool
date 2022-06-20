@@ -1,0 +1,12 @@
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\bin\Debug\GTARP Farming Tool.exe.config
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\bin\Debug\GTARP Farming Tool.exe
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\bin\Debug\GTARP Farming Tool.pdb
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP Farming Tool.csproj.AssemblyReference.cache
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP Farming Tool.csproj.SuggestedBindingRedirects.cache
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP_Farming_Tool.Main.resources
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP_Farming_Tool.Properties.Resources.resources
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP Farming Tool.csproj.GenerateResource.cache
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP Farming Tool.csproj.CoreCompileInputs.cache
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP Farming Tool.exe
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP Farming Tool.pdb
+C:\Users\rubin\Documents\GitHub\GTARP-Farming-Tool\GTARP Farming Tool\GTARP Farming Tool\obj\Debug\GTARP_Farming_Tool.hilfe.resources
