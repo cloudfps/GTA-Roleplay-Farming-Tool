@@ -49,24 +49,23 @@ namespace GTARP_Farming_Tool
             this.WindowState = FormWindowState.Maximized;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            label4.Visible = true;
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
             label4.Visible = true;
+            label4.Text = "Bitte wähle eine Aktions Taste aus.";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             label4.Visible = true;
+            label4.Text = "Bitte wähle eine Start Taste aus.";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            label4.Visible = true;
+            label4.Text = "Bitte wähle eine Stop Taste aus.";
         }
 
         private void sendKey(object sender, KeyEventArgs e)
@@ -122,6 +121,47 @@ namespace GTARP_Farming_Tool
 
             if (!modifier && nonNumber)
                 e.SuppressKeyPress = true;
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == true)
+            {
+                int speed;
+
+                if (int.TryParse(textBox1.Text, out speed))
+                {
+                    if (speed > 0)
+                    {
+                        timer1.Interval = speed;
+                    }
+                }
+                if (button2.Text == "None")
+                {
+                    label4.Visible = true;
+                    label4.Text = "Bitte wähle eine Aktions Taste aus.";
+                    checkBox2.Checked = false;
+                    return;
+                };
+                label10.Text = "EIN";
+                label10.Visible = true;
+                timer1.Start();
+            }
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            SendKeys.SendWait(button2.Text);
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox3.Checked = false;
+            checkBox2.Checked = false;
+            timer1.Stop();
+            label10.ForeColor = Color.Red;
+            label10.Text = "AUS";
         }
     }
 }
